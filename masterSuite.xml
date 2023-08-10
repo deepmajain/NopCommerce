@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+ <listener class-name="utilities.ExtentReportUtility"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+	<parameter name="browser" value="chrome" />
+    <classes>
+    <!-- REGISTRATION FUNCTIONALITY -->
+   <!--<class name="testCases.LoginDDT"></class>
+       <class name="testCases.TC_RF_001_RegisterAllDetail"/>
+       <class name="testCases.TC_RF_04_validateRegWithInvalidEmail"/>
+       <class name="testCases.TC_RF_02_RegisterWithMandatoryField"/>
+       <class name="testCases.TC_RF_06_PassConfPassDoNotMatchd"/>
+       <class name="testCases.TC_RF_03_registerWithoutFillUpDetail"/>
+       <class name="testCases.TC_RF_05ValidatePasswordLessThenSixChar"/> 
+       <class name="testCases.TC_RF_06_PassConfPassDoNotMatchd"></class>
+       <class name="testCases.TC_07_NewletterChkBoxByDeFaultSeleted"></class>
+       <class name="testCases.TC_RF_08_NewsLetterChkBoxUnSelected"></class>
+       <class name="testCases.TC_RF_09_ValidateExistingMailId"></class>
+       <class name="testCases.TC_RF_12_ValidateStarMandatoryfield"></class>
+       <class name="testCases.TC_RF_13_ValidatePawdToggleHide"></class>
+       <class name="testCases.TC_RF_14_ValidateAllLabelOnRegisrationPage"></class>-->
+     
+     <!--LOGIN FUNCTIONALITY -->
+   <!--   <class name="testCases.TC_LF_01_ValidateLoginWithValidEmailAndPass"></class>
+      <class name="testCases.TC_LF_02_ValidateRegiaterbtnOnLoginPage"></class>
+      <class name="testCases.TC_LF_03_validateForgotPassLink"></class>
+      <class name="testCases.TC_LF_04_ValidateAllLabelDisplayedOnLoginPage"></class>
+      <class name="testCases.TC_LF_05_ValidateLoginFunctinalityWithSpace"></class>
+      <class name="testCases.TC_LF_06_ValidateLoginFunctinalityWithWeongEmail"></class>
+      <class name="testCases.TC_LF_07_ValidateLoginFunctinalityWithValidEmailWrongPass"></class>
+      <class name="testCases.TC_LF_08_ValidateLoginFunctionalityUsingTabAndEnterKey"></class>
+      <class name="testCases.TC_LF_10_ValidateBrowsingBackBtnOnlogin"></class>-->
+      <class name="testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout"></class>
+      
+      <!--MYACCOUNT FUNCTIONALITY -->
+ <!-- <class name="testCases.TC_MAF_01_Validate_Coustomerinfo_link"></class>
+       <class name="testCases.TC_MAF_02_Validate_Addresses_link"></class>
+       <class name="testCases.TC_MAF_03_Validate_Orders_link"></class>
+       <class name="testCases.TC_MAF_04_Validate_Downloadable_Product"></class>
+       <class name="testCases.TC_MAF_05_Validate_Stock_Subscription"></class>
+       <class name="testCases.TC_MAF_06_Validate_Rewards_Points"></class>
+       <class name="testCases.TC_MAF_07_Validate_Change_Password"></class>
+       <class name="testCases.TC_MAF_08_Validate_MyProductReview "></class>
+       <class name="testCases.TC_MAF_09_Validate_Heading_msg"></class>
+       <class name="testCases.TC_MAF_10_Validate_logoutfuctionality"></class>
+       <class name="testCases.TC_MAF_11_Validate_SearchFunctionality"></class>-->
+        
+       </classes> 
+   </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,108 @@
+11:22:54.837 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:22:57.090 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:22:57.098 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:22:57.928 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:22:57.934 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:22:58.702 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:22:58.711 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:22:59.434 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:22:59.445 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:23:00.189 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:26:44.536 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:26:45.760 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:26:45.766 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:26:46.668 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:26:46.678 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:26:47.422 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:26:47.428 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:26:48.231 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:26:48.237 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ************************TC_05 Start**********************
+11:26:48.956 [main] INFO  testCases.TC_05ValidatePasswordLessThenSixChar - ***************TC_05 Finish*********************
+11:20:57.339 [main] INFO  testCases.TC_07_NewletterIsSelectedOrNot - *************************TC_01 Start***************************
+11:20:59.465 [main] INFO  testCases.TC_07_NewletterIsSelectedOrNot - clicked on registration link
+11:20:59.659 [main] INFO  testCases.TC_07_NewletterIsSelectedOrNot -  by default news letter checkbox selected 
+11:59:00.121 [main] INFO  testCases.TC_RF_08_NewsLetterChkBoxUnSelected - *************************TC_RF_08 Start***************************
+11:59:02.015 [main] INFO  testCases.TC_RF_08_NewsLetterChkBoxUnSelected - clicked on registration link
+11:59:02.314 [main] INFO  testCases.TC_RF_08_NewsLetterChkBoxUnSelected -  news letter checkbox should get un checked 
+12:00:22.464 [main] INFO  testCases.TC_RF_08_NewsLetterChkBoxUnSelected - *************************TC_RF_08 Start***************************
+12:00:24.270 [main] INFO  testCases.TC_RF_08_NewsLetterChkBoxUnSelected - clicked on registration link
+12:00:29.709 [main] INFO  testCases.TC_RF_08_NewsLetterChkBoxUnSelected -  news letter checkbox should get un checked 
+12:35:31.819 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - *************************TC_09 Start***************************
+12:35:33.345 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - clicked on registration link
+12:35:34.636 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - select female gender option 
+12:35:34.950 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter first name
+12:35:35.081 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter last name
+12:35:35.415 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter DOB
+12:35:35.576 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter gamil
+12:35:35.746 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Entercompany name
+12:35:35.832 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - unchecked newsletter option
+12:35:35.966 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter password
+12:35:36.087 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter confirm password
+12:35:37.522 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - clicked on registraion btn
+12:35:37.523 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - *************************TC_09 Start***************************
+12:35:39.133 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - clicked on registration link
+12:35:39.246 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - select female gender option 
+12:35:39.358 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter first name
+12:35:39.483 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter last name
+12:35:39.753 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter DOB
+12:35:39.874 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter gamil
+12:35:39.982 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Entercompany name
+12:35:40.178 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - unchecked newsletter option
+12:35:40.303 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter password
+12:35:40.435 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - Enter confirm password
+12:35:40.925 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - clicked on registraion btn
+12:35:41.184 [main] INFO  testCases.TC_RF_09_ValidateExistingMailId - *************************TC_09 Finish***************************
+16:28:45.098 [main] INFO  testCases.TC_RF_12_ValidateStarMandatoryfield - *************TC_RF_12_Start**********************
+16:28:48.322 [main] INFO  testCases.TC_RF_12_ValidateStarMandatoryfield - *************TC_RF_12_Finish**********************
+20:56:38.482 [main] INFO  testCases.TC_RF_13_ValidatePawdToggleHide - ***********************TC_RF_TC_13_Start********************
+20:56:43.539 [main] INFO  testCases.TC_RF_13_ValidatePawdToggleHide - ***********************TC_RF_TC_13_Start********************
+20:58:14.041 [main] INFO  testCases.TC_RF_14_ValidateAllLabelOnRegisrationPage - *************************TC_RF_14 Start***************************
+20:58:19.678 [main] INFO  testCases.TC_RF_14_ValidateAllLabelOnRegisrationPage - clicked on registration link
+20:58:20.966 [main] INFO  testCases.TC_RF_14_ValidateAllLabelOnRegisrationPage - *************************TC_RF_14 finidht***************************
+12:16:10.666 [main] INFO  testCases.TC_LF_02_ValidateRegiaterbtnOnLoginPage - ******************************TC_LF_02_Start***********************
+12:16:13.886 [main] INFO  testCases.TC_LF_02_ValidateRegiaterbtnOnLoginPage - ******************************TC_LF_02_Finish***********************
+12:35:12.191 [main] INFO  testCases.TC_LF_03_validateForgotPassLink - ********************TC_LF_03_Start*****************************
+12:55:50.757 [main] INFO  testCases.TC_LF_04_ValidateAllLabelDisplayedOnLoginPage - *************************TC_LF_04_Start*******************
+12:55:54.438 [main] INFO  testCases.TC_LF_04_ValidateAllLabelDisplayedOnLoginPage - *************************TC_LF_04_Finish*************
+13:28:30.670 [main] INFO  testCases.TC_LF_05_ValidateLoginFunctinalityWithSpace - ***********************TC_LF_05_Strat*****************************
+13:28:34.560 [main] INFO  testCases.TC_LF_05_ValidateLoginFunctinalityWithSpace - ***********************TC_LF_05__Finish***********************
+13:33:10.159 [main] INFO  testCases.TC_LF_06_ValidateLoginFunctinalityWithWeongEmail - ***********************TC_LF_06_Strat*****************************
+13:33:13.664 [main] INFO  testCases.TC_LF_06_ValidateLoginFunctinalityWithWeongEmail - ***********************TC_LF_06__Finish***********************
+13:38:50.811 [main] INFO  testCases.TC_LF_06_ValidateLoginFunctinalityWithWeongEmail - ***********************TC_LF_06_Strat*****************************
+13:38:53.837 [main] INFO  testCases.TC_LF_06_ValidateLoginFunctinalityWithWeongEmail - ***********************TC_LF_06__Finish***********************
+13:40:43.852 [main] INFO  testCases.TC_LF_07_ValidateLoginFunctinalityWithValidEmailWrongPass - ***********************TC_LF_07_Strat*****************************
+13:40:47.280 [main] INFO  testCases.TC_LF_07_ValidateLoginFunctinalityWithValidEmailWrongPass - ***********************TC_LF_07__Finish***********************
+13:04:02.341 [main] INFO  testCases.TC_MAF_01_Validate_Coustomerinfo_link - *********************TC_MAF_01 Start_********************
+13:04:09.840 [main] INFO  testCases.TC_MAF_01_Validate_Coustomerinfo_link - *********************TC_MAF_01 Start_********************
+13:13:54.124 [main] INFO  testCases.TC_MAF_02_Validate_Addresses_link - *********************TC_MAF_02 Start_********************
+13:16:01.471 [main] INFO  testCases.TC_MAF_02_Validate_Addresses_link - *********************TC_MAF_02 Start_********************
+13:16:10.914 [main] INFO  testCases.TC_MAF_02_Validate_Addresses_link - *********************TC_MAF_02 Start_********************
+13:21:13.161 [main] INFO  testCases.TC_MAF_03_Validate_Orders_link - *********************TC_MAF_03_Start_********************
+13:21:17.398 [main] INFO  testCases.TC_MAF_03_Validate_Orders_link - *********************TC_MAF_03_Start_********************
+13:30:59.401 [main] INFO  testCases.TC_MAF_04_Validate_Downloadable_Product - *********************TC_MAF_04_Start_********************
+13:31:05.699 [main] INFO  testCases.TC_MAF_04_Validate_Downloadable_Product - *********************TC_MAF_04_Finish_********************
+13:32:35.510 [main] INFO  testCases.TC_MAF_05_Validate_Stock_Subscription - *********************TC_MAF_05_Start_********************
+13:32:44.359 [main] INFO  testCases.TC_MAF_05_Validate_Stock_Subscription - *********************TC_MAF_05_finish_********************
+13:38:54.812 [main] INFO  testCases.TC_MAF_06_Validate_Rewards_Points - *********************TC_MAF_06_Start_********************
+13:38:59.549 [main] INFO  testCases.TC_MAF_06_Validate_Rewards_Points - *********************TC_MAF_06_finish_********************
+13:43:24.686 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_Start_********************
+13:43:28.972 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_finish_********************
+13:44:09.404 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_Start_********************
+13:44:14.404 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_finish_********************
+13:48:35.944 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_Start_********************
+13:52:34.406 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_Start_********************
+14:08:47.473 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_Start_********************
+14:08:54.826 [main] INFO  testCases.TC_MAF_07_Validate_Change_Password - *********************TC_MAF_07_finish_********************
+14:16:32.264 [main] INFO  testCases.TC_MAF_08_Validate_MyProductReview - *********************TC_MAF_08_Start_********************
+14:19:18.696 [main] INFO  testCases.TC_MAF_08_Validate_MyProductReview - *********************TC_MAF_08_Start_********************
+14:19:22.794 [main] INFO  testCases.TC_MAF_08_Validate_MyProductReview - *********************TC_MAF_08_finish_********************
+14:54:27.259 [main] INFO  testCases.TC_MAF_09_Validate_Heading_msg - *********************TC_MAF_08_Start_********************
+14:54:31.974 [main] INFO  testCases.TC_MAF_09_Validate_Heading_msg - *********************TC_MAF_08_finish_********************
+15:09:55.006 [main] INFO  testCases.TC_MAF_10_Validate_logoutfuctionality - *********************TC_MAF_10_Start_********************
+15:11:01.956 [main] INFO  testCases.TC_MAF_10_Validate_logoutfuctionality - *********************TC_MAF_10_Start_********************
+15:11:06.661 [main] INFO  testCases.TC_MAF_10_Validate_logoutfuctionality - *********************TC_MAF_10_finish_********************
+16:49:43.574 [main] INFO  testCases.TC_MAF_11_Validate_SearchFunctionality - *********************TC_MAF_11_Start_********************
+16:55:17.324 [main] INFO  testCases.TC_MAF_11_Validate_SearchFunctionality - *********************TC_MAF_11_Start_********************
+17:02:25.460 [main] INFO  testCases.TC_MAF_11_Validate_SearchFunctionality - *********************TC_MAF_11_Start_********************
+17:03:15.411 [main] INFO  testCases.TC_MAF_11_Validate_SearchFunctionality - *********************TC_MAF_11_Start_********************
+17:03:21.991 [main] INFO  testCases.TC_MAF_11_Validate_SearchFunctionality - *********************TC_MAF_11_finish_********************
