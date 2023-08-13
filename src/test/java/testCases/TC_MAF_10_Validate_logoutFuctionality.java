@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
-import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
 public class TC_MAF_10_Validate_logoutFuctionality extends BaseClass

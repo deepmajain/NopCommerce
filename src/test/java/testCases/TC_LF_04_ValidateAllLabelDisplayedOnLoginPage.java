@@ -14,11 +14,13 @@ public class TC_LF_04_ValidateAllLabelDisplayedOnLoginPage extends BaseClass
 	{
 		try
 		{
-			logger.info("*************************TC_LF_04_Start*******************");
+		logger.info("*************************TC_LF_04_Start*******************");
 		HomePage hp=new HomePage(driver);
 		hp.click_Login();
+		logger.info("click on login link");
 		LoginPage lp=new LoginPage(driver);
 		Assert.assertEquals(lp.All_label_dispalyed(), true);
+		logger.info("all label is displayed");
 		}
 		catch(Exception e)
 		{

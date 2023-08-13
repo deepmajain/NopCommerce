@@ -15,17 +15,19 @@ public class TC_LF_03_validateForgotPassLink extends BaseClass
 	{
 		try
 		{
-			logger.info("********************TC_LF_03_Start*****************************");
+		logger.info("********************TC_LF_03_Start*****************************");
 		HomePage hp=new HomePage(driver);
 		hp.click_Login();
+		logger.info("click on login link");
 		LoginPage lp=new LoginPage(driver);
 		lp.click_link_forgotpass();
+		logger.info("click on forgot password");
 		PasswordRecoveryPage prp=new PasswordRecoveryPage(driver);
 		Assert.assertEquals(prp.pswd_Recovery_Msg_Displayed(),true);
 		}
 		catch(Exception e)
 		{
-			logger.info("********************TC_LF_03_Finish*****************************");}
+		logger.info("********************TC_LF_03_Finish*****************************");}
 	}
 	
 	}

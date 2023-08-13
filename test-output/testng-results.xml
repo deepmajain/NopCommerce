@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-08T18:17:05 IST" name="Suite" finished-at="2023-08-08T18:17:32 IST" duration-ms="27047">
+  <suite started-at="2023-08-13T13:53:26 IST" name="Suite" finished-at="2023-08-13T13:54:45 IST" duration-ms="79002">
     <groups>
     </groups>
-    <test started-at="2023-08-08T18:17:05 IST" name="Test" finished-at="2023-08-08T18:17:32 IST" duration-ms="27047">
-      <class name="testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout@1a6d8329]" started-at="2023-08-08T18:17:05 IST" name="setup" finished-at="2023-08-08T18:17:25 IST" duration-ms="19533" status="PASS">
+    <test started-at="2023-08-13T13:53:26 IST" name="Test" finished-at="2023-08-13T13:54:45 IST" duration-ms="79002">
+      <class name="testCases.asfasfa">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.asfasfa@55a147cc]" started-at="2023-08-13T13:53:27 IST" name="setup" finished-at="2023-08-13T13:54:08 IST" duration-ms="41044" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout@1a6d8329]" started-at="2023-08-08T18:17:25 IST" name="login" finished-at="2023-08-08T18:17:30 IST" duration-ms="5600" status="PASS">
+        <test-method signature="login()[pri:0, instance:testCases.asfasfa@55a147cc]" started-at="2023-08-13T13:54:08 IST" name="login" finished-at="2023-08-13T13:54:41 IST" duration-ms="33673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout@1a6d8329]" started-at="2023-08-08T18:17:30 IST" name="tearDown" finished-at="2023-08-08T18:17:32 IST" duration-ms="1356" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.asfasfa@55a147cc]" started-at="2023-08-13T13:54:41 IST" name="tearDown" finished-at="2023-08-13T13:54:45 IST" duration-ms="3405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout -->
+      </class> <!-- testCases.asfasfa -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

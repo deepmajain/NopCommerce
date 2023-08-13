@@ -32,8 +32,10 @@
       <class name="testCases.TC_LF_06_ValidateLoginFunctinalityWithWeongEmail"></class>
       <class name="testCases.TC_LF_07_ValidateLoginFunctinalityWithValidEmailWrongPass"></class>
       <class name="testCases.TC_LF_08_ValidateLoginFunctionalityUsingTabAndEnterKey"></class>
-      <class name="testCases.TC_LF_10_ValidateBrowsingBackBtnOnlogin"></class>-->
+      <class name="testCases.TC_LF_10_ValidateBrowsingBackBtnOnlogin"></class>
       <class name="testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout"></class>
+      <class name="testCases.TC_LF_14_ValidatePasswordFildToggledHide"></class>-->
+      <class name="testCases.asfasfa"></class>
       
       <!--MYACCOUNT FUNCTIONALITY -->
  <!-- <class name="testCases.TC_MAF_01_Validate_Coustomerinfo_link"></class>

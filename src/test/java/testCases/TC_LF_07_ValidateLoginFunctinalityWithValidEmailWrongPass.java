@@ -14,14 +14,19 @@ public class TC_LF_07_ValidateLoginFunctinalityWithValidEmailWrongPass extends B
 	 {
 		try
 		{
-			logger.info("***********************TC_LF_07_Strat*****************************");
+		logger.info("***********************TC_LF_07_Strat*****************************");
 		HomePage hp=new HomePage(driver);
 		hp.click_Login();
+		logger.info("click on login link");
 		LoginPage lp=new LoginPage(driver);
 		lp.setEmail(rb.getString("Email"));
+		logger.info("Enter valid Email id");
 		lp.setPassword("12");
+		logger.info("Enter invalid password");
 		lp.Click_Btn_login();
+		logger.info("click on login button");
 		Assert.assertEquals(lp.pass_Error_Msg_Displayed(), true,"wrong Email");
+		logger.info("Error msg should displayed: wrong Email id");
 		}
 		catch(Exception e)
 		{

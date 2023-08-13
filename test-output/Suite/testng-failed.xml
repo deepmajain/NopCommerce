@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout">
+      <class name="testCases.TC_LF_15_ValidatePswdCopyOptionHideOnRightClick">
         <methods>
-          <include name="tearDown"/>
           <include name="login"/>
+          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout -->
+      </class> <!-- testCases.TC_LF_15_ValidatePswdCopyOptionHideOnRightClick -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

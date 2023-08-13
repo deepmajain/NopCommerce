@@ -14,13 +14,16 @@ public class TC_LF_06_ValidateLoginFunctinalityWithWeongEmail extends BaseClass
 	 {
 		try
 		{
-			logger.info("***********************TC_LF_06_Strat*****************************");
+		logger.info("***********************TC_LF_06_Strat*****************************");
 		HomePage hp=new HomePage(driver);
 		hp.click_Login();
+		logger.info("click on login link");
 		LoginPage lp=new LoginPage(driver);
 		lp.setEmail("sddf");
 		lp.Click_Btn_login();
+		logger.info("click on login button");
 		Assert.assertEquals(lp.email_Error_Msg_Displayed(), true,"wrong Email");
+		logger.info("Error msg should displayed: wrong Email id");
 		}
 		catch(Exception e)
 		{

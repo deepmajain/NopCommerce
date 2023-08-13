@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout">
+      <class name="testCases.asfasfa">
         <methods>
           <include name="tearDown"/>
           <include name="login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout -->
+      </class> <!-- testCases.asfasfa -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

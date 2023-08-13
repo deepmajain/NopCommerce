@@ -15,6 +15,7 @@ public class EndToEndTestCase extends BaseClass
 	@Test
 	public void endToEnd()
 	{
+		logger.info("*******************End toEnd test caes_Start***************");
 		HomePage hp=new HomePage(driver);
 		hp.click_Login();
 		LoginPage lp=new LoginPage(driver);
@@ -41,6 +42,7 @@ public class EndToEndTestCase extends BaseClass
 		cop.set_Postal_Code(randomeNumber());
 		cop.set_Phone(randomeNumber());
 		cop.click_on_btnContinue_Billing();
+		logger.info("*******************End toEnd test caes_Finish***************");
 		
 		
 		
