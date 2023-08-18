@@ -19,9 +19,12 @@
        <class name="testCases.TC_07_NewletterChkBoxByDeFaultSeleted"></class>
        <class name="testCases.TC_RF_08_NewsLetterChkBoxUnSelected"></class>
        <class name="testCases.TC_RF_09_ValidateExistingMailId"></class>
+       <class name="testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey"></class>
        <class name="testCases.TC_RF_12_ValidateStarMandatoryfield"></class>
        <class name="testCases.TC_RF_13_ValidatePawdToggleHide"></class>
-       <class name="testCases.TC_RF_14_ValidateAllLabelOnRegisrationPage"></class>-->
+       <class name="testCases.TC_RF_14_ValidateAllLabelOnRegisrationPage"></class>
+        <class name="testCases.TC_RF_15_RegisterAccountFromLoginPage"></class>-->
+      
      
      <!--LOGIN FUNCTIONALITY -->
    <!--   <class name="testCases.TC_LF_01_ValidateLoginWithValidEmailAndPass"></class>
@@ -34,8 +37,9 @@
       <class name="testCases.TC_LF_08_ValidateLoginFunctionalityUsingTabAndEnterKey"></class>
       <class name="testCases.TC_LF_10_ValidateBrowsingBackBtnOnlogin"></class>
       <class name="testCases.TC_LF_11_ValidateBrowsingBackBtnOnlogout"></class>
-      <class name="testCases.TC_LF_14_ValidatePasswordFildToggledHide"></class>-->
-      <class name="testCases.asfasfa"></class>
+      <class name="testCases.TC_LF_14_ValidatePasswordFildToggledHide"></class>
+      <class name="testCases.TC_LF_17_ValidateLoginAfterPassChange"></class>
+      <class name="testCases.TC_LF_19_ValidateBreadcrumb"></class>-->
       
       <!--MYACCOUNT FUNCTIONALITY -->
  <!-- <class name="testCases.TC_MAF_01_Validate_Coustomerinfo_link"></class>
@@ -48,8 +52,8 @@
        <class name="testCases.TC_MAF_08_Validate_MyProductReview "></class>
        <class name="testCases.TC_MAF_09_Validate_Heading_msg"></class>
        <class name="testCases.TC_MAF_10_Validate_logoutfuctionality"></class>
-       <class name="testCases.TC_MAF_11_Validate_SearchFunctionality"></class>-->
-        
+       <class name="testCases.TC_MAF_11_Validate_SearchFunctionality"></class>
+        <class name="testCases.TC_MAF_12_ValidateBreadcrumb"></class>-->
        </classes> 
    </test> <!-- Test -->
 </suite> <!-- Suite -->

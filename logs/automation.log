@@ -114,3 +114,87 @@
 13:52:34.422 [main] INFO  testCases.asfasfa - ******************************TC_LF_02_Finish***********************
 13:54:08.801 [main] INFO  testCases.asfasfa - ******************************TC_LF_02_Start***********************
 13:54:41.804 [main] INFO  testCases.asfasfa - ******************************TC_LF_02_Finish***********************
+11:33:39.032 [main] INFO  testCases.TC_MAF_12_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+11:42:22.114 [main] INFO  testCases.TC_MAF_12_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+11:42:28.121 [main] INFO  testCases.TC_MAF_12_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+11:44:13.143 [main] INFO  testCases.TC_MAF_12_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+11:44:19.995 [main] INFO  testCases.TC_MAF_12_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+11:46:48.080 [main] INFO  testCases.TC_MAF_12_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+11:46:51.526 [main] INFO  testCases.TC_MAF_12_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+12:54:53.458 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+12:54:55.654 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+12:54:56.214 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+12:54:56.393 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+12:54:57.540 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+12:59:19.916 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+12:59:21.849 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+12:59:22.091 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+12:59:22.238 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+12:59:23.931 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:01:37.727 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+13:01:39.209 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:01:39.364 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:01:39.489 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+13:01:40.418 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:01:44.804 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:07:02.623 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+13:07:04.048 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:07:04.354 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:07:04.525 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+13:07:05.515 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:07:08.796 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:11:15.136 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+13:11:19.487 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:11:20.025 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:11:20.250 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+13:11:21.680 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:13:15.745 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+13:13:18.448 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:13:18.962 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:13:19.209 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+13:13:25.943 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:19:11.728 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+13:19:13.067 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:19:13.397 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:19:13.568 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+13:19:14.047 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:20:39.694 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+13:20:43.341 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:20:43.585 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:20:43.730 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+13:20:44.639 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:22:01.039 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Start*********************************
+13:22:03.401 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:22:03.819 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:22:03.991 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter password
+13:22:05.191 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - click on login button
+13:22:10.904 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - Enter email id
+13:22:13.780 [main] INFO  testCases.TC_LF_17_ValidateLoginAfterPassChange - ***************TC_LF_17_Finish*********************************
+14:22:56.116 [main] INFO  testCases.TC_LF_19_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+14:22:58.465 [main] INFO  testCases.TC_LF_19_ValidateBreadcrumb - ***********************TC_MAF_12 start************************
+15:01:30.196 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - ***********************TC_LF_10_Strat*****************************
+15:01:32.253 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - clicked on registration link
+15:01:32.663 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - select female gender option 
+15:01:32.939 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - Enter first name
+15:01:33.159 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - Enter last name
+15:01:33.708 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - Enter DOB
+15:01:33.955 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - Enter gamil
+15:01:34.160 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - Entercompany name
+15:01:34.321 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - unchecked newsletter option
+15:01:34.546 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - Enter password
+15:01:34.733 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - Enter confirm password
+15:01:35.821 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - clicked on registraion btn
+15:01:35.916 [main] INFO  testCases.TC_RF_10_ValidateRegiatrationFunctionalityUsingTabAndEnterKey - ***********************TC_LF_10_Finish*****************************
+15:11:00.921 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - *************************TC_15_Start***************************
+15:11:03.275 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - clicked on registration link
+15:11:03.532 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - select female gender option 
+15:11:03.818 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - Enter first name
+15:11:03.969 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - Enter last name
+15:11:04.240 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - Enter DOB
+15:11:04.361 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - Enter gamil
+15:11:04.494 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - Entercompany name
+15:11:04.584 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - unchecked newsletter option
+15:11:04.707 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - Enter password
+15:11:04.844 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - Enter confirm password
+15:11:05.815 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - clicked on registraion btn
+15:11:05.943 [main] INFO  testCases.TC_RF_15_RegisterAccountFromLoginPage - *************************TC_15_ Finish***************************

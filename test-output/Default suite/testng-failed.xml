@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.asfasfa">
+      <class name="testCases.TC_MAF_12_ValidateBreadcrumb">
         <methods>
+          <include name="Myaccount"/>
           <include name="tearDown"/>
-          <include name="login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.asfasfa -->
+      </class> <!-- testCases.TC_MAF_12_ValidateBreadcrumb -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

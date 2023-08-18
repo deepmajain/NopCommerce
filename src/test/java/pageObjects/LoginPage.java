@@ -15,6 +15,7 @@ public class LoginPage extends BasePage {
 	
 	//locator:
 	
+
 	@FindBy(xpath="//input[@id='Email']")public WebElement Text_Email;
 	@FindBy(xpath="//input[@id='Password']")public WebElement Text_Password;
 	@FindBy(xpath="//button[normalize-space()='Log in']")public WebElement Btn_Login;
@@ -74,6 +75,13 @@ public class LoginPage extends BasePage {
 	
 	
 	//action method for all label check to displayed or not
+	public boolean Page_Heading_dispalyed()
+	{
+		label_welcome_signin.isDisplayed();
+		return true;
+		
+	}
+	
 	public boolean All_label_dispalyed()
 	{
 		label_welcome_signin.isDisplayed();

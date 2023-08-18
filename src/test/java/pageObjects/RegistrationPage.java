@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,20 +17,20 @@ public class RegistrationPage extends BasePage {
 	}
 	
 	//locators:
-	@FindBy(xpath="//input[@id='gender-male']") WebElement Select_male_radio;
-	@FindBy(xpath="//input[@id='gender-female']") WebElement Select_female_radio;
-	@FindBy(xpath="//input[@id='FirstName']") WebElement Text_fname;
-	@FindBy(xpath="//input[@id='LastName']") WebElement text_Lname;
-	@FindBy(xpath="//select[@name='DateOfBirthDay']") WebElement Select_DOB_Day;
-	@FindBy(xpath="//select[@name='DateOfBirthMonth']") WebElement Select_DOB_Month;
-	@FindBy(xpath="//select[@name='DateOfBirthYear']") WebElement Select_DOB_Year;
-	@FindBy(xpath="//input[@id='Email']") WebElement Text_Email;
-	@FindBy(xpath="//input[@id='Company']")WebElement Text_Company;
+	@FindBy(xpath="//input[@id='gender-male']") public WebElement  Select_male_radio;
+	@FindBy(xpath="//input[@id='gender-female']") public WebElement Select_female_radio;
+	@FindBy(xpath="//input[@id='FirstName']") public WebElement Text_fname;
+	@FindBy(xpath="//input[@id='LastName']")public WebElement text_Lname;
+	@FindBy(xpath="//select[@name='DateOfBirthDay']")public WebElement Select_DOB_Day;
+	@FindBy(xpath="//select[@name='DateOfBirthMonth']")public WebElement Select_DOB_Month;
+	@FindBy(xpath="//select[@name='DateOfBirthYear']")public WebElement Select_DOB_Year;
+	@FindBy(xpath="//input[@id='Email']")public WebElement Text_Email;
+	@FindBy(xpath="//input[@id='Company']") public WebElement Text_Company;
 	@FindBy(xpath="//input[@id='Newsletter']")public WebElement Select_Newsletter;
 	@FindBy(xpath="//input[@id='Password']")public WebElement Text_password;
 	@FindBy(xpath="//input[@id='ConfirmPassword']")public WebElement text_Conf_password;
-	@FindBy(xpath="//button[@id='register-button']") WebElement Btn_register;
-	@FindBy(xpath="//div[@class='result']")WebElement validation_register;
+	@FindBy(xpath="//button[@id='register-button']") public WebElement Btn_register;
+	@FindBy(xpath="//div[@class='result']") WebElement validation_register;
 	
 	//error msg locator:
 	@FindBy(xpath="//span[@id='FirstName-error']") WebElement Fname_error_msg;
@@ -70,7 +71,7 @@ public class RegistrationPage extends BasePage {
 	//Action
 	
 	public void select_Male()
-	{
+	{   
 		Select_male_radio.click();
 	}
 	

@@ -27,7 +27,7 @@ public class MyAccountPage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='My product reviews']") WebElement link_myProduct_review;
 	
 	@FindBy(xpath="//div[@class='block block-account-navigation']//strong[contains(text(),'My account')]") WebElement Heading_myaccount;
-	
+	@FindBy(xpath="//a[normalize-space()='Log out']") WebElement link_Logout;
 	
 	
 	//action
@@ -84,6 +84,11 @@ public class MyAccountPage extends BasePage{
 	{
 		Heading_myaccount.isDisplayed();
 		return true;
+	}
+	
+	public void Click_logout()
+	{
+		link_Logout.click();
 	}
 
 }
