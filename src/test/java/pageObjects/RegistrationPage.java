@@ -1,6 +1,4 @@
 package pageObjects;
-
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,7 +18,7 @@ public class RegistrationPage extends BasePage {
 	@FindBy(xpath="//input[@id='gender-male']") public WebElement  Select_male_radio;
 	@FindBy(xpath="//input[@id='gender-female']") public WebElement Select_female_radio;
 	@FindBy(xpath="//input[@id='FirstName']") public WebElement Text_fname;
-	@FindBy(xpath="//input[@id='LastName']")public WebElement text_Lname;
+	@FindBy(xpath="//input[@id='LastName']")public WebElement Text_Lname;
 	@FindBy(xpath="//select[@name='DateOfBirthDay']")public WebElement Select_DOB_Day;
 	@FindBy(xpath="//select[@name='DateOfBirthMonth']")public WebElement Select_DOB_Month;
 	@FindBy(xpath="//select[@name='DateOfBirthYear']")public WebElement Select_DOB_Year;
@@ -28,9 +26,9 @@ public class RegistrationPage extends BasePage {
 	@FindBy(xpath="//input[@id='Company']") public WebElement Text_Company;
 	@FindBy(xpath="//input[@id='Newsletter']")public WebElement Select_Newsletter;
 	@FindBy(xpath="//input[@id='Password']")public WebElement Text_password;
-	@FindBy(xpath="//input[@id='ConfirmPassword']")public WebElement text_Conf_password;
+	@FindBy(xpath="//input[@id='ConfirmPassword']")public WebElement Text_Conf_password;
 	@FindBy(xpath="//button[@id='register-button']") public WebElement Btn_register;
-	@FindBy(xpath="//div[@class='result']") WebElement validation_register;
+	@FindBy(xpath="//div[@class='result']") WebElement Validation_register;
 	
 	//error msg locator:
 	@FindBy(xpath="//span[@id='FirstName-error']") WebElement Fname_error_msg;
@@ -86,9 +84,9 @@ public class RegistrationPage extends BasePage {
 	}
 	public void text_Lname(String Lname)
 	{
-		text_Lname.sendKeys(Lname);
+		Text_Lname.sendKeys(Lname);
 	}
-	public void Select_DOB(String day,String month,String year)
+	public void select_DOB(String day,String month,String year)
 	{
 		Select_DOB_Day.sendKeys(day);
 		Select_DOB_Month.sendKeys(month);
@@ -113,7 +111,7 @@ public class RegistrationPage extends BasePage {
 	}
 	public void set_ConPassword()
 	{
-		text_Conf_password.sendKeys("abc123");
+		Text_Conf_password.sendKeys("abc123");
 	}
 	public void click_Btn_Register()
 	{
@@ -121,7 +119,7 @@ public class RegistrationPage extends BasePage {
 	}
 	public boolean register_is_displayed()
 	{
-		validation_register.isDisplayed();
+		Validation_register.isDisplayed();
 		return true;
 	}
 	
@@ -221,7 +219,7 @@ public class RegistrationPage extends BasePage {
 	
 	//single action method  for all labels
 	
-	public boolean All_Label_RegistarionPage_IsDisplayed()
+	public boolean all_Label_RegistarionPage_IsDisplayed()
 	{
 		Label_register.isDisplayed();
 		Label_Personal_Deatil.isDisplayed();

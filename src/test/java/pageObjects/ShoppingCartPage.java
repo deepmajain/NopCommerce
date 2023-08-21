@@ -13,17 +13,17 @@ public class ShoppingCartPage extends BasePage {
 	}
 	
 	//method:
-	@FindBy(xpath="//input[@id='termsofservice']") WebElement chkbox_select_trmNCondition;
-	@FindBy(xpath="//button[@id='checkout']") WebElement btn_checkout;
+	@FindBy(xpath="//input[@id='termsofservice']") WebElement Check_box_select_trmNCondition;
+	@FindBy(xpath="//button[@id='checkout']") WebElement Btn_checkout;
 	//Action:
 	
 	public void click_On_checkbox_termNCondition()
 	{
-		chkbox_select_trmNCondition.click();
+		Check_box_select_trmNCondition.click();
 	}
 	
 	public void click_On_Btn_CheckOut()
 	{
-		btn_checkout.click();
+		Btn_checkout.click();
 	}
    }

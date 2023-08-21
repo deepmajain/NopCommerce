@@ -21,12 +21,12 @@ public class EndToEndTestCase extends BaseClass
 		LoginPage lp=new LoginPage(driver);
 		lp.setEmail(rb.getString("Email"));
 		lp.setPassword(rb.getString("pass"));
-		lp.Click_Btn_login();
+		lp.click_Btn_login();
 		hp.Text_Search_iteam();
 		hp.click_Search_btn();
 		SearchPage sp=new SearchPage(driver);
 		sp.click_on_ProductItem();
-		Assert.assertEquals(sp.Msg_successFully_ItemAdded_intocart(),true);
+		Assert.assertEquals(sp.msg_successFully_ItemAdded_intocart(),true);
 		hp.click_ShoppingCart_btn();
 		ShoppingCartPage sc=new ShoppingCartPage(driver);
 		sc.click_On_checkbox_termNCondition();

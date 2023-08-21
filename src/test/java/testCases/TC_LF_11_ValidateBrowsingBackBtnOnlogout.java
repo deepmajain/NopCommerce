@@ -23,13 +23,13 @@ public class TC_LF_11_ValidateBrowsingBackBtnOnlogout extends BaseClass
 		logger.info("Enter Email id");
 		lp.setPassword(rb.getString("pass"));
 		logger.info("Enter Password");
-		lp.Click_Btn_login();
+		lp.click_Btn_login();
 		logger.info("click on login button");
 		lp.click_logout(); 
 		logger.info("click on logout button");
 		driver.navigate().back();
 		logger.info("click on browsing back button");
-		Assert.assertEquals(hp.link_Login.isDisplayed(),true);
+		Assert.assertEquals(hp.Link_Login.isDisplayed(),true);
 		logger.info("login page should displayed");
 		}
 			catch(Exception e) 

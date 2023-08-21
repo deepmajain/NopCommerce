@@ -22,11 +22,11 @@ public class LoginDDT extends BaseClass
 		LoginPage lp=new LoginPage(driver);
 		lp.setEmail(email);
 		lp.setPassword(password);
-		lp.Click_Btn_login();
+		lp.click_Btn_login();
 		
 		MyAccountPage myacc=new MyAccountPage(driver);
 		
-		 String text=myacc.Get_Text_MyAccount();
+		 String text=myacc.get_Text_MyAccount();
 		
 		if(result.equals("valid"))
 		{

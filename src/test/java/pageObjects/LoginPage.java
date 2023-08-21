@@ -20,20 +20,20 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//input[@id='Password']")public WebElement Text_Password;
 	@FindBy(xpath="//button[normalize-space()='Log in']")public WebElement Btn_Login;
 	@FindBy(xpath="//button[normalize-space()='Register']")WebElement Btn_Register;
-	@FindBy(xpath="//a[normalize-space()='Forgot password?']") WebElement link_ForgotPass;
-	@FindBy(xpath="//a[normalize-space()='Log out']")WebElement link_logout;
+	@FindBy(xpath="//a[normalize-space()='Forgot password?']") WebElement Link_ForgotPass;
+	@FindBy(xpath="//a[normalize-space()='Log out']")WebElement Link_logout;
 	
 	
 	//All labels locators:
 	
 	
-	@FindBy(xpath="//h1[normalize-space()='Welcome, Please Sign In!']")WebElement label_welcome_signin;
-	@FindBy(xpath="//strong[normalize-space()='New Customer']")WebElement label_New_Customer;
-	@FindBy(xpath="//strong[normalize-space()='Returning Customer']")WebElement label_returing_customer;
-	@FindBy(xpath="//label[normalize-space()='Email:']")WebElement label_Email;
-	@FindBy(xpath="//label[normalize-space()='Password:']")WebElement label_pass;
-	@FindBy(xpath="//label[normalize-space()='Remember me?']")WebElement label_rememberme;
-	@FindBy(xpath="//h2[normalize-space()='About login / registration']") WebElement label_Aboutlogin;
+	@FindBy(xpath="//h1[normalize-space()='Welcome, Please Sign In!']")WebElement Label_welcome_signin;
+	@FindBy(xpath="//strong[normalize-space()='New Customer']")WebElement Label_New_Customer;
+	@FindBy(xpath="//strong[normalize-space()='Returning Customer']")WebElement Label_returing_customer;
+	@FindBy(xpath="//label[normalize-space()='Email:']")WebElement Label_Email;
+	@FindBy(xpath="//label[normalize-space()='Password:']")WebElement Label_pass;
+	@FindBy(xpath="//label[normalize-space()='Remember me?']")WebElement Label_rememberme;
+	@FindBy(xpath="//h2[normalize-space()='About login / registration']") WebElement Label_Aboutlogin;
 	
 	//Error message locators:
 	
@@ -53,7 +53,7 @@ public class LoginPage extends BasePage {
 	{
 		Text_Password.sendKeys(pass);
 	}
-	public void Click_Btn_login()
+	public void click_Btn_login()
 	{
 		Btn_Login.click();
 
@@ -65,32 +65,32 @@ public class LoginPage extends BasePage {
 	}
 	public void click_link_forgotpass()
 	{
-		link_ForgotPass.click();
+		Link_ForgotPass.click();
 	}
 	
 	public void click_logout()
 	{
-		link_logout.click();
+		Link_logout.click();
 	}
 	
 	
 	//action method for all label check to displayed or not
-	public boolean Page_Heading_dispalyed()
+	public boolean page_Heading_dispalyed()
 	{
-		label_welcome_signin.isDisplayed();
+		Label_welcome_signin.isDisplayed();
 		return true;
 		
 	}
 	
 	public boolean All_label_dispalyed()
 	{
-		label_welcome_signin.isDisplayed();
-		label_New_Customer.isDisplayed();
-		label_returing_customer.isDisplayed();
-		label_Email.isDisplayed();
-		label_pass.isDisplayed();
-		label_rememberme.isDisplayed();
-		label_Aboutlogin.isDisplayed();
+		Label_welcome_signin.isDisplayed();
+		Label_New_Customer.isDisplayed();
+		Label_returing_customer.isDisplayed();
+		Label_Email.isDisplayed();
+		Label_pass.isDisplayed();
+		Label_rememberme.isDisplayed();
+		Label_Aboutlogin.isDisplayed();
 		return true;
 		
 	}

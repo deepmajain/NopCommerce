@@ -8,7 +8,7 @@ import pageObjects.LoginPage;
 import pageObjects.PasswordRecoveryPage;
 import testBase.BaseClass;
 
-public class TC_LF_03_validateForgotPassLink extends BaseClass 
+public class TC_LF_03_ValidateForgotPassLink extends BaseClass 
 	{
 	@Test
 	public void login()

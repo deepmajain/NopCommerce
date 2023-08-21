@@ -23,7 +23,7 @@ public class TC_LF_10_ValidateBrowsingBackBtnOnlogin extends BaseClass
 		logger.info("Enter email id");
 		lp.setPassword(rb.getString("pass"));
 		logger.info("Enter password");
-		lp.Click_Btn_login();
+		lp.click_Btn_login();
 		logger.info("click on login button");
 		driver.navigate().back();
 		logger.info("driver nevigate to back page in login page");

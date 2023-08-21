@@ -13,28 +13,28 @@ public class MyAccountPage extends BasePage{
 	
 	//Locators:
 	
-	@FindBy(xpath="//a[@class='ico-account']") WebElement link_Myaccount;
+	@FindBy(xpath="//a[@class='ico-account']") WebElement Link_Myaccount;
 	
 	@FindBy(xpath="//input[@id='Newsletter']") WebElement CheckBox_newslatter;
 	
-	@FindBy(xpath="//a[normalize-space()='Customer info']") WebElement link_coustomerinfo;
-	@FindBy(xpath="//a[normalize-space()='Addresses']") WebElement link_Address;
-	@FindBy(xpath="//a[normalize-space()='Orders']") WebElement link_orders;
-	@FindBy(xpath="//a[normalize-space()='Downloadable products']") WebElement link_downloadable_product;
-	@FindBy(xpath="//a[normalize-space()='Back in stock subscriptions']") WebElement link_back_in_stock_subscription;
-	@FindBy(xpath="//a[normalize-space()='Reward points']") WebElement link_rewards_point;
-	@FindBy(xpath="//a[normalize-space()='Change password']") WebElement link_change_password;
-	@FindBy(xpath="//a[normalize-space()='My product reviews']") WebElement link_myProduct_review;
+	@FindBy(xpath="//a[normalize-space()='Customer info']") WebElement Link_coustomerinfo;
+	@FindBy(xpath="//a[normalize-space()='Addresses']") WebElement Link_Address;
+	@FindBy(xpath="//a[normalize-space()='Orders']") WebElement Link_orders;
+	@FindBy(xpath="//a[normalize-space()='Downloadable products']") WebElement Link_downloadable_product;
+	@FindBy(xpath="//a[normalize-space()='Back in stock subscriptions']") WebElement Link_back_in_stock_subscription;
+	@FindBy(xpath="//a[normalize-space()='Reward points']") WebElement Link_rewards_point;
+	@FindBy(xpath="//a[normalize-space()='Change password']") WebElement Link_change_password;
+	@FindBy(xpath="//a[normalize-space()='My product reviews']") WebElement Link_myProduct_review;
 	
 	@FindBy(xpath="//div[@class='block block-account-navigation']//strong[contains(text(),'My account')]") WebElement Heading_myaccount;
-	@FindBy(xpath="//a[normalize-space()='Log out']") WebElement link_Logout;
+	@FindBy(xpath="//a[normalize-space()='Log out']") WebElement Link_Logout;
 	
 	
 	//action
 	
-	public String Get_Text_MyAccount()
+	public String get_Text_MyAccount()
 	{
-		return(link_Myaccount.getText());
+		return(Link_Myaccount.getText());
 	}
 	
 	public void news_letter_chkbox_isSelctedOrNot()
@@ -44,51 +44,51 @@ public class MyAccountPage extends BasePage{
 	
 	//action methods for links
 	
-	public void Click_coustomerinfo()
+	public void click_coustomerinfo()
 	{
-		link_coustomerinfo.click();
+		Link_coustomerinfo.click();
 	}
-	public void Click_Address()
+	public void click_Address()
 	{
-		link_Address.click();
+		Link_Address.click();
 	}
-	public void Click_Orders()
+	public void click_Orders()
 	{
-		link_orders.click();
+		Link_orders.click();
 	}
-	public void Click_downladable_product()
+	public void click_downladable_product()
 	{
-		link_downloadable_product.click();
+		Link_downloadable_product.click();
 	}
-	public void Click_back_in_stock_subscription()
+	public void click_back_in_stock_subscription()
 	{
-		link_back_in_stock_subscription.click();
+		Link_back_in_stock_subscription.click();
 	}
-	public void Click_reward_points()
+	public void click_reward_points()
 	{
-		link_rewards_point.click();
+		Link_rewards_point.click();
 	}
 	
-	public void Click_change_password()
+	public void click_change_password()
 	{
-		link_change_password.click();
+		Link_change_password.click();
 	}
-	public void Click_myProduct_review()
+	public void click_myProduct_review()
 	{
-		link_myProduct_review.click();
+		Link_myProduct_review.click();
 	}
 	
 	//action method for heading validation
 	
-	public boolean Heading_myaccount_isdisplayed()
+	public boolean heading_myaccount_isdisplayed()
 	{
 		Heading_myaccount.isDisplayed();
 		return true;
 	}
 	
-	public void Click_logout()
+	public void click_logout()
 	{
-		link_Logout.click();
+		Link_Logout.click();
 	}
 
 }

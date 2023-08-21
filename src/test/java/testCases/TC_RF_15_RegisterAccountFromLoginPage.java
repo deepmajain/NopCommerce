@@ -29,7 +29,7 @@ public class TC_RF_15_RegisterAccountFromLoginPage extends BaseClass
 		  logger.info("Enter first name");
 		  rp.text_Lname(randomeString().toUpperCase());
 		  logger.info("Enter last name");
-		  rp.Select_DOB(randomeNumber(),randomeString(),randomeString()); 
+		  rp.select_DOB(randomeNumber(),randomeString(),randomeString()); 
 		  logger.info("Enter DOB");
 		  rp.set_Email(randomeString()+"@gmail.com");
 		  logger.info("Enter gamil");

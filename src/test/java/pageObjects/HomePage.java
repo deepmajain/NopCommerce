@@ -14,22 +14,22 @@ public class HomePage extends BasePage{
 	
 	//locator:
 	 @FindBy(xpath="//a[normalize-space()='Register']")
-	 WebElement link_register;
+	 WebElement Link_register;
 	 
 	 @FindBy(xpath="//a[normalize-space()='Log in']") public
-	 WebElement link_Login;
+	 WebElement Link_Login;
 	 
 	 @FindBy(xpath="//a[@class='ico-account']") 
-	 WebElement link_MyAccount;
+	 WebElement Link_MyAccount;
 	 
 	 @FindBy(xpath="//input[@id='small-searchterms']") 
-	 WebElement text_search_box;
+	 WebElement Text_search_box;
 	 
 	 @FindBy(xpath="//button[normalize-space()='Search']") 
 	 WebElement Btn_Search;
 	 
 	 @FindBy(xpath="//span[@class='cart-label']") 
-	 WebElement Btn_shopping_cart;
+	 WebElement Btn_Shopping_cart;
 	 
 	 
 	
@@ -38,22 +38,22 @@ public class HomePage extends BasePage{
 	//action:
 	 public void click_Registration()
 	 {
-		 link_register.click();
+		 Link_register.click();
 	 }
 	 
 	 public void click_Login()
 	 {
-		 link_Login.click();
+		 Link_Login.click();
 	 }
 	 
 	 public void click_Myaccount()
 	 {
-		 link_MyAccount.click();
+		 Link_MyAccount.click();
 	 }
 	 
 	 public void Text_Search_iteam()
 	 {
-		 text_search_box.sendKeys("laptop");
+		 Text_search_box.sendKeys("laptop");
 		
 	 }
 	 public void click_Search_btn()
@@ -63,7 +63,7 @@ public class HomePage extends BasePage{
 	 
 	 public void click_ShoppingCart_btn()
 	 {
-		 Btn_shopping_cart.click();
+		 Btn_Shopping_cart.click();
 	 }
 	
 	

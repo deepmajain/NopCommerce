@@ -34,7 +34,7 @@ public class TC_LF_08_ValidateLoginFunctionalityUsingTabAndEnterKey extends Base
 		lp.Btn_Login.sendKeys(Keys.ENTER);
 		logger.info("Enter login button by using TAB key");
 		MyAccountPage map=new MyAccountPage(driver);
-		Assert.assertEquals(map.Get_Text_MyAccount(),"My account");
+		Assert.assertEquals(map.get_Text_MyAccount(),"My account");
 		}
 		catch(Exception e)
 		{

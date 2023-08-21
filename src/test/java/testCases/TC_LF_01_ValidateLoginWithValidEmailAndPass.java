@@ -23,7 +23,7 @@ public class TC_LF_01_ValidateLoginWithValidEmailAndPass extends BaseClass
 		logger.info("Set Email id");
 		lp.setPassword(rb.getString("pass"));
 		logger.info("Set password");
-		lp.Click_Btn_login();
+		lp.click_Btn_login();
 		logger.info("click on login button");
 		}
 			catch(Exception e)
